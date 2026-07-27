@@ -5,6 +5,7 @@
 # ============================================
 
 
+from banner import mostrar_banner
 from menu import mostrar_menu
 
 from downloader import (
@@ -15,7 +16,9 @@ from downloader import (
 
 
 def main():
+    mostrar_banner()
     while True:
+
         opcion = mostrar_menu()
 
         # ============================================
